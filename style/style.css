@@ -1,0 +1,1934 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Style Here Start */
+
+
+.container-1 {
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-2 {
+    display: flex;
+}
+
+.inline {
+    display: flex;
+    width: 650px;
+}
+
+.inline>img {
+    margin-top: 50px;
+    margin-right: 17px;
+    margin-bottom: 48px;
+}
+
+
+.inline>h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 48px;
+    margin-right: 398px;
+    margin-bottom: 49px;
+}
+
+.span-color {
+    color: #FF5400;
+    margin-left: 8.5px;
+}
+
+.mobile-menu-bar {
+    visibility: hidden;
+    position: relative;
+    right: 100px;
+
+}
+
+
+.nevigation .unordert-list li {
+    display: inline;
+}
+
+.nevigation .unordert-list li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.nevigation {
+    margin-top: 53px;
+    margin-bottom: 50px;
+}
+
+.unordert-list {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+.nevigation .unordert-list li a {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu {
+    display: none;
+}
+
+/* Header Style Here end */
+
+/* Explore section style start */
+
+.container-2 {
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-container {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 0;
+}
+
+.explore-more-travel {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 106px;
+}
+
+.linear>p {
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+
+.input-container {
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-bottom: 106px;
+    width: 800px;
+    height: 84px;
+
+}
+
+.input-background {
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.where-go {
+    margin-right: 24px;
+}
+
+.when,
+.select-type {
+    margin-right: 24px;
+}
+
+.when,
+.select-type,
+.btn-primary {
+    display: flex;
+}
+
+.when,
+.select-type {
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.when>img,
+.select-type>img {
+    padding-right: 15px;
+}
+
+.where-go>input {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+
+.when>input,
+.select-type>input {
+    width: 140px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    padding-right: 16px;
+}
+
+.btn-primary>img {
+    width: 24px;
+    height: 24px;
+    margin-top: 14px;
+    margin-right: 8px;
+    margin-left: 35px;
+    margin-bottom: 14px;
+}
+
+.btn-primary>button {
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Explore section style end */
+
+
+/* Our Popular Tour Style Start */
+
+.container-3 {
+    width: 81%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.our-popular-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.our-popular-title>h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.our-popular-title>p {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.our-popular-contan {
+    margin-top: 24px;
+    margin-left: 5px;
+}
+
+.our-popular-contan>ul>li {
+    width: 500px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+.btn-secondary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: 0;
+    margin-top: 32px;
+}
+
+/* Our Popular Tour Style End */
+
+/* Choose Your Destination style start */
+
+.container-4 {
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.destination-contant>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-contant>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.maldives-indonesia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.maldiv {
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.maldiv>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+.indonesia {
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+}
+
+.indonesia>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+.srilonka-northamerica-kashmir {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.srilanka {
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+}
+
+.srilanka>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+.north-america {
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+
+}
+
+.north-america>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+
+.kashmir {
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+
+}
+
+.kashmir>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+.bangladesh-bandarban {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.bangladesh {
+    background-image: url('../Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.bangladesh>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+.bandarban {
+    background-image: url('../Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.bandarban>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+/* Choose Your Destination style end */
+
+
+/* Why Choose Us style start */
+
+.container-5 {
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.why-choos-us>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why-choos-us>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hotel-map {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hotel-img>img {
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.handpiked-hotel {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 48px;
+}
+
+.handpiked-hotel>h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.handpiked-hotel>p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+
+.map>img {
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.world-map {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-top: 48px;
+}
+
+.world-map>h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.world-map>p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+.best-price {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-tag>img {
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.best-price>h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.best-price>p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+/* Why Choose Us style end */
+
+
+/* Deals & Discounts style start */
+
+.container-6 {
+    width: 100%;
+    max-width: 1170px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deals-discount-container>h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-discount-container>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.malaisiya {
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+
+.container {
+    padding-top: 56px;
+
+}
+
+.tour-satorini {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    margin-left: 535px;
+    margin-right: 56px;
+}
+
+.flex {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 140px;
+}
+
+
+.flex>img {
+    margin-right: 8px;
+    margin-top: 50px;
+}
+
+.flex>p {
+    margin-right: 24px;
+    margin-top: 52px;
+}
+
+
+.tour-satorini-contant {
+    margin-top: 26px;
+    margin-left: 50px;
+}
+
+.tour-satorini-contant>h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tour-satorini-contant>.p1 {
+    width: 452px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.tour-satorini-contant>.p2 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.tour-satorini-contant>button {
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 38px;
+    margin-bottom: 50px;
+}
+
+.malaisiya-2 {
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.tour-satorini-2 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    margin-left: 56px;
+    margin-right: 535px;
+}
+
+.malaisiya-3 {
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.btn-2 {
+    margin-top: 48px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+
+.btn-2>button {
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Deals & Discounts style end */
+
+/* Simple perfect place style start */
+
+.Simple-perfect-place-section {
+    width: 100%;
+    max-width: 1170px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Simple-perfect-place-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfect-place-contant>h3 {
+    width: 448px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.perfect-place-contant>.contant {
+    width: 532px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.perfect-place-contant>.contant-2 {
+    margin-top: 16px;
+}
+
+.perfect-place-contant>ul>li>p {
+    width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.perfect-place-contant>ul>li {
+    margin-left: 20px;
+}
+
+.perfect-place-contant>button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+}
+
+.mountain-bangladesh {
+    background-image: url('../Images/Group\ 40089.png'), linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+}
+
+.mountain-bangladesh>h4 {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 176px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    display: flex;
+    margin-top: 111px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ip {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.ip>p {
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12px;
+}
+
+.player-tool {
+    margin-right: 8px;
+}
+
+.player-tool>img {
+    margin-right: 16px;
+}
+
+.play-lenth {
+    width: 562px;
+    height: 4px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 19px;
+    margin-bottom: 25px;
+    margin-left: 24px;
+}
+
+.play-lenth>img {
+
+    margin-bottom: 25px;
+
+}
+
+/* Simple perfect place style end */
+
+/* Newsleter style start */
+
+.newsletter-section {
+    width: 100%;
+    max-width: 1170px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-contant {
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-contant>h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 308px;
+}
+
+.newsletter-contant>p {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 40px;
+    margin-right: 84px;
+    margin-bottom: 32px;
+}
+
+.newsletter-contant>input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 40px;
+    margin-right: 41px;
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 251px;
+    padding-bottom: 16px;
+    border: 0;
+}
+
+.subscribe-btn>button {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 24px;
+    margin-left: 40px;
+    margin-right: 41px;
+    margin-bottom: 40px;
+}
+
+
+.travel-save-70 {
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-size: contain;
+    width: 672px;
+    height: 422px;
+
+}
+
+.transform {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    margin-top: 254px;
+    margin-left: 341.50px;
+    margin-right: 0.48px;
+}
+
+.travel {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+.save-70 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+/* newsletter style end */
+
+/* footer section style start */
+
+footer {
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-section {
+    width: 100%;
+    max-width: 1170px;
+    padding-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    margin-right: 400px;
+}
+
+.footer-title>img {
+    width: 40px;
+    height: 46.673px;
+    margin-right: 16px;
+}
+
+.footer-title>h3 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-contant {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.footer-section>img {
+    margin-top: 32px;
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.footer-section>.all-right {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 450px;
+    margin-bottom: 110px;
+}
+
+/* footer section style end */
+
+/* mobile device */
+@media screen and (max-width: 600px) {
+
+    /* header responsive start */
+
+    .container-1 {
+        display: flex;
+        width: 375px;
+        height: 64px;
+    }
+
+    .inline {
+        position: relative;
+    }
+
+    .inline>img {
+        width: 28.724px;
+        margin-left: 20px;
+    }
+
+    .inline>h1 {
+        font-size: 21.543px;
+    }
+
+    .nevigation {
+        display: none;
+    }
+
+    .inline>.mobile-menu-bar {
+        width: 24px;
+        height: 24px;
+        visibility: visible;
+        right: 275px;
+
+
+    }
+
+
+    /* header responsive end */
+
+    /* explore more responsive start */
+
+    .container-2 {
+        width: 335px;
+        margin-top: 0;
+        margin-bottom: 24px;
+
+    }
+
+    .explore-more-travel {
+        font-size: 22px;
+        padding-top: 32px;
+    }
+
+    .linear>p {
+        width: 304px;
+        font-size: 14px;
+        margin-bottom: 0px
+    }
+
+    .input-container {
+        width: 287px;
+        height: 288px;
+        margin: 15px 24px 32px 24px;
+
+    }
+
+    .input-background {
+        width: 255px;
+        flex-direction: column;
+    }
+
+    .where-go>input {
+        width: 255px;
+        height: 52px;
+    }
+
+    .where-go {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .when>input {
+        width: 216px;
+        height: 52px;
+    }
+
+    .when {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .select-type>input {
+        width: 215px;
+        height: 52px;
+    }
+
+    .select-type {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .btn-primary {
+        width: 255px;
+        height: 52px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    /* explore more responsive end */
+
+
+    /* our popular tour responsive start */
+
+    .container-3 {
+        width: 335px;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .our-popular-container {
+        flex-direction: column;
+    }
+
+    .our-popular-title>h2 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .our-popular-title>p {
+        width: 335px;
+        font-size: 14px;
+    }
+
+    .our-popular-contan>.popular-unordert>li>p {
+        width: 311px;
+        font-size: 14px;
+    }
+
+    .mountan>img {
+        margin-top: 24px;
+        width: 333px;
+        height: 342px;
+    }
+
+    /* our popular tour responsive end */
+
+    /* choose your destination responsive start */
+
+    .container-4 {
+        width: 335px;
+        margin-top: 0;
+    }
+
+    .destination-contant>h2 {
+        font-size: 20px;
+    }
+
+    .destination-contant>p {
+        width: 309px;
+        font-size: 14px;
+    }
+
+
+    .maldives-indonesia {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .maldives-indonesia>.maldiv {
+        width: 333px;
+        height: 176px;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    .maldiv>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    .maldives-indonesia>.indonesia {
+        width: 333px;
+        height: 176px;
+        background-size: contain;
+    }
+
+    .indonesia>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    .srilonka-northamerica-kashmir {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 16px;
+    }
+
+    .srilanka {
+        width: 333px;
+        height: 176px;
+    }
+
+    .srilanka>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    .north-america {
+        width: 333px;
+        height: 176px;
+        margin-top: 16px;
+    }
+
+    .north-america>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    .kashmir {
+        width: 333px;
+        height: 176px;
+        margin-top: 16px;
+        background-size: cover;
+    }
+
+    .kashmir>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    .bangladesh-bandarban {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 16px;
+    }
+
+    .bangladesh {
+        width: 333px;
+        height: 176px;
+        margin-bottom: 0;
+    }
+
+    .bangladesh>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    .bandarban {
+        width: 333px;
+        height: 176px;
+        margin-top: 16px;
+    }
+
+    .bandarban>h4 {
+        margin-top: 75px;
+        margin-bottom: 76px;
+    }
+
+    /* choose your destination responsive end */
+
+    /* Why Choose Us section responsive start  */
+    .container-5 {
+        width: 335px;
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .why-choos-us>h2 {
+        font-size: 20px;
+    }
+
+    .why-choos-us>p {
+        width: 309px;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .hotel-map {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .handpiked-hotel {
+        width: 333px;
+        height: 289px;
+        margin-top: 16px;
+    }
+
+    .hotel-img>img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .handpiked-hotel>h4 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .handpiked-hotel>p {
+        width: 271px;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .world-map {
+        width: 333px;
+        height: 289px;
+        margin-top: 16px;
+    }
+
+    .map>img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .world-map>h4 {
+        font-size: 20px;
+    }
+
+    .world-map>p {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .best-price {
+        width: 333px;
+        height: 289px;
+        margin-top: 16px;
+    }
+
+    .price-tag>img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .best-price>h4 {
+        font-size: 20px;
+    }
+
+    .best-price>p {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    /* Why Choose Us section responsive end  */
+
+    /* Deals and discount section start */
+
+    .container-6 {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
+
+    .deals-discount-container>h3 {
+        font-size: 20px;
+    }
+
+    .deals-discount-container>p {
+        width: 309px;
+        font-size: 14px;
+    }
+
+    .malaisiya,
+    .malaisiya-2,
+    .malaisiya-3 {
+        width: 335px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 130px;
+    }
+
+    .tour-satorini,
+    .tour-satorini-2 {
+        width: 303px;
+        height: 297px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+    }
+
+    .tour-satorini-contant {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+    }
+
+    .tour-satorini-contant>h4 {
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 16px;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .tour-satorini-contant>.p1 {
+        width: 254px;
+        font-size: 14px;
+        margin-left: 25px;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .tour-satorini-contant>.p2 {
+        font-size: 16px;
+        margin-left: 25px;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    .tour-satorini-contant>button {
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 16px;
+        margin-left: 25px;
+    }
+
+    .flex {
+        width: 300px;
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .flex>p {
+        font-size: 16px;
+    }
+
+    .flex>.watch {
+        width: 24px;
+        height: 24px;
+        margin-top: 24px;
+        margin-left: 25px;
+
+    }
+
+    .flex>.time {
+        margin-top: 25px;
+        margin-right: 135px;
+
+    }
+
+    .flex>.people {
+        width: 24px;
+        height: 24px;
+        margin-left: 25px;
+        margin-top: 16px;
+    }
+
+    .flex>.quantiti {
+        margin-top: 20px;
+    }
+
+    .flex>.location {
+        width: 24px;
+        height: 24px;
+        margin-top: 18px;
+    }
+
+    .flex>.place {
+        margin-top: 20px;
+    }
+
+    .btn-2 {
+        margin-left: 85px;
+    }
+
+    /* Deals and discount section end */
+
+    /* Simple perfect place section start  */
+
+    .Simple-perfect-place-section {
+        margin-top: 24px;
+    }
+
+    .Simple-perfect-place-section-container {
+        flex-direction: column;
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .perfect-place-contant {
+        border: 2px solid cadetblu;
+    }
+
+    .perfect-place-contant>.asimple {
+        width: 248px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+
+    .perfect-place-contant>.contant {
+        width: 335px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+
+    .perfect-place-contant>ul>li>p {
+        width: 335px;
+        font-size: 14px;
+    }
+
+    .mountain-bangladesh {
+        width: 335px;
+        height: 200px;
+        background-size: cover;
+        margin-top: 24px;
+    }
+
+    .mountain-bangladesh>h4 {
+        width: 276px;
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    /* newsletter responsive start */
+
+    .newsletter-section {
+        margin-top: 24px
+    }
+
+    .newsletter-flex {
+        flex-direction: column;
+    }
+
+    .newsletter-contant {
+        width: 335px;
+        height: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .newsletter-contant>h4 {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .newsletter-contant>p {
+        width: 270px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .newsletter-contant>input {
+        width: 288px;
+        height: 52px;
+        margin-left: 23px;
+        margin-right: 24px;
+    }
+
+
+    .subscribe-btn>button {
+        width: 288px;
+        height: 52px;
+        margin-left: 23px;
+        margin-right: 24px;
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+
+    .travel-save-70 {
+        width: 335px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+        padding-bottom: 0;
+        border-radius: 16px;
+    }
+
+    .transform {
+        width: 214.023px;
+        height: 79.268px;
+        position: relative;
+        right: 230px;
+        bottom: 68px;
+        padding-top: 0;
+    }
+
+    .transform>.travel {
+        font-size: 15.854px;
+        margin-top: 0;
+        padding: 0;
+        padding-top: 13px;
+    }
+
+    .transform>.save-70 {
+        font-size: 21.138px;
+        padding: 0;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+
+    /* news letter responsive end */
+
+    /* footer section responsive start */
+
+    footer {
+        width: 375px;
+        height: 309px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
+
+    .footer-section {
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .footer-title {
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-title>img {
+        width: 28.724px;
+        height: 33.516px;
+        margin-left: auto;
+    }
+
+    .footer-title>h3 {
+        font-size: 21.543px;
+        margin-right: auto;
+    }
+
+
+
+    .footer-contant {
+        width: 287px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer-section>img {
+        width: 174.322px;
+        height: 24px;
+        margin-top: 16px;
+        margin-left: 80px;
+        margin-right: 120px;
+    }
+
+    hr {
+        width: 335px;
+        height: 1px;
+        margin-top: 24px;
+    }
+
+    .footer-section>.all-right {
+        color: #131318;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 24px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
